@@ -317,4 +317,161 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: 72px;
 }
-
+/*  */
+/*  service   */
+.service {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+}
+/* service supb */ 
+.serviceCont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.SSupTitle {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: #333;
+}
+.SSubTitle {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+}
+/**/
+/* PHText */
+.PHText {
+    width: 260px;
+    height: 95px;
+}
+.PHeader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    text-transform: uppercase;
+}
+.PHLorem {
+    padding-top: 20px;
+    width: 265px;
+    height: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999;
+}
+/**/
+/* servises */
+.services {
+    width: 1145px;
+    height: 235px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+.image {
+    width: 35px;
+    height: 30px;
+    padding: 30px;
+}
+.photography {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.alarm {
+    background: url('images/alarm.jpg') no-repeat;
+}
+.web_design {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 80px;
+}
+.schedule {
+    background: url('images/schedule.jpg') no-repeat;
+}
+.creativity {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 80px;
+}
+.monitor {
+    background: url('images/monitor.jpg') no-repeat;
+}
+.interline {
+    width: 1200px;
+    height: 2px;
+    background-color: #e5e5e5;
+}
+.seo {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.book {
+    background: url('images/book.jpg') no-repeat;
+}
+.css_html {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.home {
+    background: url('images/home.jpg') no-repeat;
+}
+.digital {
+    width: 320px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.scope {
+    background: url('images/scope.jpg') no-repeat;
+}
+/*  */
+/*  future  */
+.feauture {
+    width: 100%;
+    height: 850px;
+    background-color: #d9d9d9;
+    background: url('images/feauture.jpg');
+}
+.feautureCont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FSupTitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+    margin-top: 120px;
+}
+.FSubTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
