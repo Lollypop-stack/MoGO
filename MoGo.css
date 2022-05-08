@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: space-around; 
     position: absolute;
-    margin-top: 955px;
+    margin-top: 900px;
 }
 .sliderItem {
     font-size: 16px;
@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 850px;
     background-color: #d9d9d9;
-    background: url('images/feauture.jpg'), no-repeat;
+    background: url('images/feauture.jpg');
 }
 .feautureCont {
     width: 100%;
@@ -475,16 +475,312 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     text-transform: uppercase;
 }
-/* */
+.ipad {
+    max-width: 745px;
+    min-width: 596px;
+    max-height: 800px;
+    min-height: 580px;
+    background: url('images/ipad.jpg') no-repeat;
+    margin-top: 31px;
+    margin-left: 90px;
+}
+/*  */
+/*  service2    */
+.service2 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service2Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.iphone {
+    width: 204px;
+    height: 435px;
+    background: url('images/iphone.jpg');
+    margin-top: -380px;
+    margin-left: 460px;
+    position: absolute;
+}
+.Lorem2 {
+    width: 955px;
+    height: auto;;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.SERVcontainer {
+    width: 1200px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+.cheel {
+    width: 570px;
+    height: 380px;
+    background: url('images/cheel.jpg'), no-repeat;
+}
+.PCW {
+    width: 600px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 13px;
+}
+/*  photo part  */
+.PHOTOpart {
+    width: 600px;
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.pctr_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.picture {
+    width: 30px;
+    height: 30px;
+    background: url('images/picture.jpg');
+    
+}
+.PHOTOtext {
+    color: #333;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.UArrow {
+    width: 20px;
+    height: 12px;
+    background: url('images/uarrow.jpg');
+    margin-right: 20px;
+}
+/**/
+
+
+/* creative part    */
+.CREATIVEpart {
+    width: 600px;
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+
+}
+.stngs_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.settings {
+    width: 30px;
+    height: 30px;
+    background: url('images/picture.jpg');
+    
+}
+.CREATIVEtext {
+    color: #333;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.DArrow {
+    width: 20px;
+    height: 12px;
+    background: url('images/darrow.jpg');
+    margin-right: 20px;
+}
+/*  web part    */
+.WEBpart {
+    width: 600px;
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+
+}
+.mrj_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.miraje {
+    width: 30px;
+    height: 30px;
+    background: url('images/picture.jpg');
+    
+}
+.WEBtext {
+    color: #333;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+/**/
 /* Quota */
 .quota {
     height: 290px;
-    width: 1920px;
+    width: 100%;
     background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .quotaCont {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+}
+.Larrow {
+    width: 15px;
+    height: 25px;
+    background: url('images/Larrow.jpg') no-repeat;
+    padding-right: 75px;
+}
+.Rarrow {
+    width: 12px;
+    height: 22px;
+    background: url('images/Rarrow.jpg') no-repeat;
+}
+.massage {
+    width: 150px;
+    height: 150px;
+    background: url('images/massage.jpg') no-repeat;
+}
+.QJRCont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 60px;
+    justify-content: left;
+}
+.QText{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    width: 770px;
+    height: 95px;
+    margin-bottom: 60px;
+    padding-right: 30px;
+}
+.JRCont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -610px;
+
+}
+.JohnDoe {
+    font-size: 24px;
+    font-family: 'Kaushan Script', sans-serif;
+    padding-left: 10px;
+}
+.RLine {
+    margin-bottom: 30px;
+}
+/*  */
+
+/*  Our team    */
+.ourTeam {
+    width: 100%;
+    height: 1050px;
+    max-width: 1920px;
+}
+.ourTeamCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+}
+.ourTeamSupTitle {
+    color: #333;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 24px;
+}
+.ourTeamSubTitle {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.Lorem {
+    text-align: center;
+    margin-top: -40px;
+}
+.Team {
+    width: 1210px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 95px;
+}
+.Memb {
+    text-align: center;
+}
+.FMembImg {
+    width: 380px;
+    height: 470px;
+    background: url('images/MATTHEW.jpg');
+}
+.SMembImg {
+    width: 380px;
+    height: 470px;
+    background: url('images/CRISTOPHER.jpg');
+    padding-left: 30px;
+}
+.TMembImg {
+    width: 380px;
+    height: 470px;
+    background: url('images/MICHAEL.jpg');
+    padding-left: 30px;
+}
+.MembSup {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+.MembSub {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    padding-top: 10px;
 }
