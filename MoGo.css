@@ -284,6 +284,12 @@ h6 {
     background-color: #f38181;
     margin-top: 30px;
 }
+.RLineV2 {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 10px;
+}
 
 .Lorem {
     width: 955px;
@@ -1177,10 +1183,11 @@ h6 {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 0 20px 0;
+    font-size: bold;
 }
 
 .images__cont-Sub {
-    font-family: 'Roboto', Italic;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #777;
     margin: 0 0 20px 0;
@@ -1191,6 +1198,20 @@ h6 {
     height: 2px;
     background-color: #e5e5e5;
     margin: 0 0 20px 0;
+}
+.GLineV2 {
+    width: 480px;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.GLineV3 {
+    width: 1200px; 
+    height: 1px;
+    background-color: #e5e5e5;
+    display: block;
+    margin-top: 80px;
 }
 
 .reaction {
@@ -1224,3 +1245,303 @@ h6 {
 /**/
 
 /*
+/* MAP  */
+.map-container {
+    height: 200px;
+    background: url("images/map.jpg") no-repeat;
+    background-size: cover;
+}
+.dot {
+    width: 25px;
+    height: 25px;
+    background: url(images/point.jpg) no-repeat;
+    margin-bottom: 10px;
+}
+.open_map {
+    color: #f38181;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold;
+    text-decoration: none;
+}
+/**/ 
+
+
+/*  Footer  */ 
+.footer {
+    height: 560px;
+    background-color: #f7f7f7;
+}
+.MoGoLog {
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold;
+    color: #ccc;
+}
+.WeInSocialNetwork-container {
+    width: 1200px;
+    height: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* sumup */
+.SumUp {
+    width: 460px;
+}
+.LoremIpsum {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 45px;
+}
+.OurFollowers {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+.fifteenK {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold;
+}
+.Socials {
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    justify-content: space-between;
+}
+.FollowUs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 5px;
+    font-style: oblique;
+}
+.SocialLinks {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.network {
+    width: 18px;
+    height: 18px;
+}
+.facebook {
+    background: url("images/facebook.jpg") no-repeat;
+    margin-right: 10px;
+}
+.twitter {
+    background: url("images/twitter.jpg") no-repeat;
+    margin-right: 10px;
+}
+.instagram {
+    background: url("images/instagram.jpg") no-repeat;
+    margin-right: 10px;
+}
+.pinterest {
+    background: url("images/pinterest.jpg") no-repeat;
+    margin-right: 10px;
+}
+.google {
+    background: url("images/google.jpg") no-repeat;
+    margin-right: 10px;
+}
+.youtube {
+     background:  url("images/youtube.jpg") no-repeat;
+     margin-right: 10px;
+}
+.ball {
+    background: url("images/ball.jpg") no-repeat;
+    margin-right: 10px;
+}
+.tiktok {
+    background: url("images/tiktok.jpg") no-repeat;
+}
+.SubscribeWind {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.EntryField {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #777;
+    font-style: oblique;
+}
+.SubBut {
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3; 
+    color: #fff;
+    font-size: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+/*  */
+
+/* BlOGS */
+.Blogs {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.Cont_Tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.Collections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ChandelierCollection {
+    margin-bottom: 30px;
+}
+.StarfallCollection {
+    margin-bottom: 30px;
+}
+.Chandalier-img {
+    width: 145px;
+    height: 80px;
+    background: url("images/chandelier.jpg") no-repeat;
+}
+.Starfall-img {
+    width: 145px;
+    height: 80px;
+    background: url("images/starfall.jpg") no-repeat; 
+}
+.GuitarChel-img {
+    width: 145px;
+    height: 80px;
+    background: url("images/guitarchel.jpg") no-repeat; 
+}
+.Descript {
+    width: 250px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+}
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #777;
+    font-style: oblique;
+}
+.StarfallCollection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+/**/
+
+/* Instagram */ 
+.Instagram {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.PhotoGrid {
+    display: flex;
+    flex-direction: column;
+}
+.photo {
+    width: 88px;
+    height: 88px;
+}
+.PhotoGrid-sector {
+    display: flex;
+    flex-direction: row;
+}
+.photo1 {
+    background: url("images/photo1.jpg");
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.photo2 {
+    background: url("images/photo2.jpg");
+    margin-right: 2px;
+}
+.photo3 {
+    background: url("images/photo3.jpg");
+}
+.photo4 {
+    background: url("images/photo4.jpg");
+    margin-right: 2px;
+}
+.photo5 {
+    background: url("images/photo5.jpg");
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.photo6 {
+    background: url("images/photo6.jpg");
+}
+.photo7 {
+    background: url("images/photo7.jpg");
+    margin-right: 2.5px;
+}
+.photo8 {
+    background: url("images/photo8.jpg");
+    margin-right: 2px;
+}
+.photo9 {
+    background: url("images/photo9.jpg");
+}
+.ViewMore {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #777;
+    font-style: oblique;
+    margin-top: 30px;
+}
+/**/ 
+
+/* last */ 
+.Last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.Reg {
+    width: 11px;
+    height: 11px;
+    background: url("images/reg.jpg") no-repeat;
+    margin-right: 10px;
+
+}
+.Orange {
+    color: #f38a8a;
+    margin-left: 10px;
+}
