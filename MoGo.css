@@ -210,7 +210,6 @@ h6 {
     height: 3px;
     background-color: #f8ebc5;
     margin-top: -30px;
-    ;
 }
 
 .FsliderLine {
@@ -235,7 +234,13 @@ h6 {
     text-align: left;
     position: absolute;
 }
-
+.PageNav {
+    text-decoration: none;
+    color: #fff;
+}
+.PageNav:hover {
+    cursor: pointer;
+}
 .slideNum {
     font-weight: bold;
 
@@ -407,7 +412,6 @@ h6 {
 }
 
 .PHLorem {
-    padding-top: 20px;
     width: 265px;
     height: 65px;
     font-family: 'Roboto', sans-serif;
@@ -637,6 +641,47 @@ h6 {
     align-items: center;
     flex-direction: row;
 }
+.PHOTOdescript {
+    width: 600px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    display: none;
+}
+.CREATIVEdescript {
+    width: 600px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    display: none;
+}
+.WDdescript {
+    width: 600px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    display: none;
+}
+.PCWtext {
+    width: 560px;
+    height: 140px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #afafaf;
+    font-style: oblique; 
+    line-height: 1.5;
+    text-align: left;
+    overflow-y: scroll;
+}
+.PCWtext::-webkit-scrollbar {width: 5px;}
+.PCWtext::-webkit-scrollbar-track {background-color: #f5f5f5; border-radius: 5px;}
+.PCWtext::-webkit-scrollbar-thumb {background-color: #95e1d3; border-radius: 5px;}
 
 .pctr_text {
     display: flex;
@@ -662,12 +707,7 @@ h6 {
     margin-left: 15px;
 }
 
-.UArrow {
-    width: 20px;
-    height: 12px;
-    background: url('images/uarrow.jpg');
-    margin-right: 20px;
-}
+
 
 /**/
 
@@ -710,9 +750,17 @@ h6 {
 }
 
 .DArrow {
+    display: none;
     width: 20px;
     height: 12px;
     background: url('images/darrow.jpg');
+    margin-right: 20px;
+}
+.UArrow {
+    // display: none;
+    width: 20px;
+    height: 12px;
+    background: url('images/uarrow.jpg');
     margin-right: 20px;
 }
 
@@ -1230,9 +1278,10 @@ h6 {
 }
 
 .reaction__element-amount {
-    font-family: 'Roboto', Italic;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #777;
+    font-style: oblique;
 }
 
 .reaction__element-comments {
