@@ -25,10 +25,27 @@ function OpenPHOTODescript() {
    function OpenWDDescript() {
     document.getElementById('WDdescript').style.display = 'flex';
     document.getElementById('WDUArrow').style.display = 'flex';
-    document.getElementById('WDDArrow').style.display = 'none';
+    document.getElementById('WDDArrow').style.display = 'none';ы
    }
    function closeWDdescript() {
     document.getElementById('WDdescript').style.display = 'none';
     document.getElementById('WDUArrow').style.display = 'none';
     document.getElementById('WDDArrow').style.display = 'flex';
    }
+
+
+   function changeItem() {
+    document.getElementById('FMembImg').style.background = '#95e1d3';
+    document.getElementById('FMembImg__overlay').style.display = 'block';
+    document.getElementById('FMembImg__overlay').style.zIndex = '9998';
+    document.getElementById('FMembImg__overlay').style.bottom = '10px';
+    document.getElementById('FMembImg__overlay').style.right = '10px';
+  }
+  function rechangeItem() {
+    document.getElementById('FMembImg').style.background = "url('images/MATTHEW.jpg')";
+    document.getElementById('FMembImg__overlay').style.display = 'none';
+    document.getElementById('FMembImg__overlay').style.top = '0px';
+    document.getElementById('FMembImg__overlay').style.left = '0px';
+    document.getElementById('FMembImg__overlay').style.zIndex = '1';
+  }
+  
